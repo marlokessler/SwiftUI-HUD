@@ -29,9 +29,12 @@ struct HUD: View {
     private var configuration: HUDConfiguration?
     
     private var edgeLength: CGFloat {
-        return frame.width > frame.height
+        let calcLength = frame.width > frame.height
             ? frame.height / 2
             : frame.width / 2
+        return calcLength > 170
+            ? 170
+            : calcLength
     }
     
     
@@ -104,7 +107,6 @@ struct HUD: View {
                 }
             }
         }
-        .frame(maxWidth: 170, maxHeight: 170)
         .frame(width: edgeLength, height: edgeLength)
         .background(background)
         .cornerRadius(configuration?.cornerRadius ?? 20)
