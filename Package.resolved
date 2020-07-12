@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Indicators",
+        "repositoryURL": "https://github.com/Connapptivity/SwiftUI-Indicators.git",
+        "state": {
+          "branch": null,
+          "revision": "11390e5620f17dd18b5925cee23568469fcde1a4",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
