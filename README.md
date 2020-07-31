@@ -5,8 +5,16 @@ This package contains a HUD based on Connapptivity's SwiftUI-Indicators purely w
 
 ## Getting Started
 
-Install this package by adding a Package Dependency in Xcode under _Swift Packages> Add Package Dependency_. Choose _SwiftUI-HUD_ from Connapptivity and select the version you want to add and the target and click _Finish_. Now you can use it after adding the `import HUD` statement at the top of xour code file.
+### Swift Package Manager
 
+Install this package by adding a Package Dependency in Xcode under _Swift Packages> Add Package Dependency_. Choose _SwiftUI-HUD_ from Connapptivity and select the version you want to add and the target and click _Finish_. 
+
+### CocoaPods
+
+Alternatively, you can add `pod 'CA-HUD'` to your podfile and run `pod install`.
+
+
+Now you can use it after adding the `import HUD` statement at the top of xour code file.
 
 ## Usage
 
