@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "CA-HUD"
-  spec.version      = "1.1.0"
+  spec.name         = "CAHUD"
+  spec.version      = "1.2.0"
   spec.summary      = "A beautiful HUD purely written in SwiftUI. Includes success, failure, info waiting and progress mode."
   spec.homepage     = "https://github.com/Connapptivity/SwiftUI-HUD"
 
